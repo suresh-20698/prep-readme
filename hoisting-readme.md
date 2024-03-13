@@ -16,7 +16,7 @@
 ### Explanation
 
 - if a variable is declared using var, by default it's intial value will be undefined until a value is assigned, so it can be accessed even before declaration
-- if a varable is declared using let and const, it wont contain any initail value, so using them before declaration will result in a error
+- if a varable is declared using let and const, it will be under Temporal Dead Zone (TDZ), so using them before declaration will result in a error
 
 #### Example 1
 
@@ -26,7 +26,7 @@
 
 #### Example 2
 
-- in this example, we are doing the same as above, but now the variable is declared using `let`/`const` since they wont have any default value like `var` it will result in an error if we try to access them before declaration
+- in this example, we are doing the same as above, but now the variable is declared using `let`/`const` since they are in Temporal Dead Zone (TDZ) it will result in an error if we try to access them before declaration
 
 ![decode-example-image](https://i.ibb.co/kHx21bp/Screenshot-from-2024-03-12-12-44-07.png)
 
