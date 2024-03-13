@@ -5,7 +5,7 @@
 ### Explanation
 
 - introduced before ES6
-- global scoped
+- global scoped / functional scoped
 - var allows you to declare global-scoped variables
 - var can be re-declared
 
@@ -18,7 +18,7 @@
 ### Explanation
 
 - introduced in ES6
-- block/functional scoped
+- block scoped
 - let allows you to declare block-scoped variables
 - let can be re-assigned but can't be re-declared
 
@@ -31,7 +31,7 @@
 ### Explanation
 
 - introduced in ES6
-- block/functional scoped
+- block scoped
 - const is used to declare constants
 - const can't be re-assigned or re-declared, but properties of value can be modified
 
