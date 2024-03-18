@@ -3,7 +3,7 @@
 
 ### Explanation
 
-- useMemo is a hook used to memoize a values
+- useMemo is a hook used to memoize values
 - useMemo contains two params, one is callback to perform activities and another one is dependencies arrays where the callback will be executed when changes detected on dependencies
 - useMemo returns a value based on the calculations performed
 - useMemo prevents unnecessary re-computation of expensive values when there is no change on dependencies
