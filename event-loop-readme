@@ -1,0 +1,33 @@
+
+# Event Loop
+
+### Explanation
+
+- Event loop defines the process how the code is being executed
+- Allows execution of non-blocking codes
+- Makes Javascript asynchronous
+
+### Execution process
+
+- Heap (Memory)
+- Stack (Execution)
+
+### Queue
+
+- Micro queue | Priority queue
+- Macro queue   
+
+#### Micro queue
+
+- Micro queue is also known as priority queue
+- Micro queue will consists of tasks such as API calls, promises etc
+- Task in Micro queue will be pushed to main stack first
+
+#### Macro queue
+
+- Macro queue will consists of tasks such as timers, event handlers etc
+- Task in Macro queue will be pushed to main stack once Micro queue is empty
+
+#### Note
+
+- time passed on setTimeout will not determine the start of execution, it is a minimum delay when it should be executed
